@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>Chaitanya Sai</h1>
+    <img src="./195340-1669798808923-IMG-20221130-WA0001.jpg" width ="100px",height="100px">
+    <h2>Portfolio</h2>
+  </header>
+
+  <main>
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><p>Project 1:Personal Portfolio</p></li>
+        <li><p>Project 2:Photography Site </p></li>
+        <li><p>Project 3:Parallax Website</p></li>
+        <li><p>project 4:Music Store Page </p></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>Html</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>python</li>
+        <li>CSS Grid</li>
+        <li>c++</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Certification of achievement in Embedded Systems(2023)</li>
+        <li>Certification of achievement in Fundamentals of CandC++(2022)</li>
+        <li>Certification of achievement in web development(2023)</li>
+        <li>Certification of achievement in VLSI(2023)</li>
+        <li>Certification of achievement in Data Structures and Algorithms(2022)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact:9030415703</h2>
+      <a href="https://mail.google.com/mail/u/0/#inbox">Email</a><br>
+      <a href="https://www.linkedin.com/feed/?trk=homepage-basic_sign-in-submit">LinkedIn</a><br>
+      <a href="https://github.com/chaitanya1592/portfolio"href="#">Github</a><br>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2024 chaitanya sai
+  </footer>
+
+</body>
+</html>
+
+/* css part */
+sbody {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5f5f5;
+  }
+  
+  header, footer {
+    text-align: center;
+    padding: 20px;
+    background-color:rgba(0, 0, 255, 0.676);
+    color: white;
+    grid-column: span 2;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  section {
+    background-color: gray;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  h2 {
+    color:black;
+  }
+  a {
+    font-size: x-large;
+  }
